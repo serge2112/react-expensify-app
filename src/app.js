@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
-import 'normalize.css/normalize.css';
 import AppRouter from './routers/AppRouter';
-import './styles/styles.scss'
 import configureStore from './store/configureStore';
 import { addExpense } from './actions/expenses';
 import getVisibleExpenses from './selectors/expenses';
 
+import './styles/styles.scss'
 import 'react-dates/lib/css/_datepicker.css';
+import 'normalize.css/normalize.css';
 
 const store = configureStore();
 
