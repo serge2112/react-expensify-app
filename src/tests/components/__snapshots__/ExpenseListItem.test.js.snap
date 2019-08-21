@@ -10,10 +10,10 @@ exports[`render expense list item component with one expense 1`] = `
     </h3>
   </Link>
   <p>
-    Amount: 
-    180000
-     - 
-    -345600000
+    Amount:
+    $1,800.00
+    -
+    Dec 27th, 1969
   </p>
 </div>
 `;
