@@ -5,6 +5,7 @@ import AppRouter from './routers/AppRouter';
 import configureStore from './store/configureStore';
 import { addExpense } from './actions/expenses';
 import getVisibleExpenses from './selectors/expenses';
+import firebase from './firebase/firebase';
 
 import './styles/styles.scss'
 import 'react-dates/lib/css/_datepicker.css';
