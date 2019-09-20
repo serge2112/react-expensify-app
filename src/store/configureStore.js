@@ -12,7 +12,7 @@ export default () => {
 			{
 				expenses: expensesReducer,
 				filters: filtersReducer,
-				authReducer: authReducer
+				auth: authReducer
 			}			
 		),
 		composeEnhancers(applyMiddleware(thunk))
