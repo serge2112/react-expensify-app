@@ -2,8 +2,8 @@
 
 exports[`Render expense dashboard 1`] = `
 <div>
-  <Connect(ExpenseListFilter) />
   <Connect(ExpenseSummary) />
+  <Connect(ExpenseListFilter) />
   <Connect(ExpenseList) />
 </div>
 `;
